@@ -1,0 +1,5 @@
+24：Facade 门面模式
+25：Medator 中介模式
+26:责任链模式 ColliderChain
+
+29：RectDecortor 装饰者模式
