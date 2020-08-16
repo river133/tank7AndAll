@@ -1,0 +1,12 @@
+图形化聊天室
+53
+使用netty：
+Codecc编解码器
+    定义TankMsg x,y
+    TankMsgEncoder 负责编码
+    TankMsgDecoder 负责解码
+    将Encoder加入客户端Channle处理器
+    将Decoder加入服务器Channle处理器
+    在客户端channleActive的时候发送一个TankMsg
+    观察服务器是否正确接收
+

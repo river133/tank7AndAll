@@ -1,0 +1,26 @@
+图形化聊天室
+56
+使用netty：
+Codecc编解码器
+    TankJoinMsg
+     单元测试：
+           TankJoinMsgEncoder  编解码
+           TankJoinMsgDncoder  编解码
+
+通过netty转发给所有客户端的坦克位置,
+    1、判断是不是自己？
+    2、列表里是不是已经有了
+    3、发自己的一个TankJoinMsg
+ //--------------
+修改TankJoinMsgDecoder为MsgDecoder
+修改TankJoinMsEncoder为MsgEncoder
+
+添加TankStartMovingMsg：加入坦克移动的消息
+采用测试单元对testEncoder ，testDecoder 进行测试
+    setMainTankDir 坦克移动时发送移动的消息
+
+ 58 加入移动消息
+ 59 07-36加入停止消息
+
+
+
